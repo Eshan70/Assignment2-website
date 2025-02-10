@@ -16,7 +16,7 @@
     border: none;
   }
   .nav-div{
-    max-width: 1440px;
+    max-width: 1640px;
     justify-content: space-around;
     align-items: center;
     
@@ -93,11 +93,32 @@
   }
   .src{
     max-width: 668px;
-    /* margin-right: 0; */
   }
   .img2{
       width: 100%;
   }
+  .logo{
+    display: none;
+  }
+  .border{
+    border-bottom:none
+  }
+@media screen and (max-width:576px) {
+    .school, .nav-div2, .btn1{
+        display: none;
+    }
+    .logo{
+        display:block;
+        width: 60px;
+        height:30px;
+        margin-right: 0;
+    }
+    .border{
+        border-bottom: 3px solid red;
+        border-width: 100%;
+    }
+    
+}
   
   
   
