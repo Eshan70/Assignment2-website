@@ -118,9 +118,14 @@
         border-bottom: 3px solid red;
         width: 100%;
     }
+   
     .div4{
       text-align: center;
     }
+    .nav-div{
+      justify-content: space-between;
+    }
+    
     .g{
       flex-direction: column-reverse;
         margin-left: 0;
